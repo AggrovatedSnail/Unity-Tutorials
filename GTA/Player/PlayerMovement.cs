@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float desiredRotationSpeed;
     public Animator animator;
     public Camera camera;
-    public bool _showSolverDebug = true;
+    public bool showSolverDebug = true;
     public bool isGrounded = true;
     public CharacterController controller;
     public float Angle2Target;
