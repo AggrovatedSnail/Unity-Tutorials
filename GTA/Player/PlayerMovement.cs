@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float raycastDownDistance = 1.5f;
     [SerializeField]
-    LayerMask _environmentLayer;
+    LayerMask environmentLayer;
     [SerializeField]
     float pelvisOffset;
     [Range(0, 1)]
